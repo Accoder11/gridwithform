@@ -37,11 +37,7 @@ form h2 {
     margin-right: 25px;
 }
 
-.flexLeft {
-    width: 50%;
-    padding: 5px;
-}
-.flexRight {
+.flexLeft, .flexRight {
     width: 50%;
     padding: 5px;
 }
