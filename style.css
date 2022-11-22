@@ -3,17 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background-color: beige;
-}
 .grid {
     display: grid;
-    height: 80vh;
+    height: 70vh;
     max-width: 800px;
     grid-template: 100% / 40% 60%;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 30px auto;
     gap: 20px;
+    background-color: beige;
 }
 .contacts {
     background-color: #635baf;
@@ -25,17 +22,19 @@ body {
 }
 form {
     width: 100%;
-    height: 100%; 
+    height: 100%;
+    padding: 10px;
 }
 form h2 {
-    padding: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 .flexForm {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
+    margin-right: 25px;
 }
 
 .flexLeft {
